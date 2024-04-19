@@ -13,11 +13,9 @@ public class Main {
                 int first = Integer.parseInt(inputs[0]);
                 int second = Integer.parseInt(inputs[1]);
 
-
                 if (first == 0 && second== 0) {
                     break;
-                }
-                if (first > second) {
+                } else if (first > second) {
                     System.out.println("Yes");
                 } else {
                     System.out.println("No");
